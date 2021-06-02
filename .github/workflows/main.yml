@@ -30,3 +30,11 @@ jobs:
           
       - name: TICS Action
         uses: ./.github/actions/tics
+        env: 
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        with:
+          projectName: 'TiCS-Action'                                        # mandatory, default value is the project name that this action is running on
+          branchName: 'andriopoulou-danai-patch-1'                          # mandatory, default value is the branch name that this action is running on
+          branchDir: '/home/danai/Tics-Plugins/TICS-Action-1/TICS-Action'     # mandatory
+          ticsViewerUrl: 'http://localhost:20212/tiobeweb/2021.2/'          # mandatory
+          clientToken: 'githubToken'                                        # mandatory, the user token for the TiCS Viewer
