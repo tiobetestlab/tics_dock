@@ -27,5 +27,6 @@ jobs:
         with:
           repository: wenersoft/.github
           
+      - uses: actions/checkout@v1
       - name: TICS Action
         uses: ./.github/actions/tics
