@@ -24,7 +24,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: TICS Analysis
-        run: TICS -project TICSDOCK -calc ALL -qg .
+        with:
+          repository: wenersoft/tics_action
+          path: action
+          
+      - name: Run My Action
+        uses: ./action
