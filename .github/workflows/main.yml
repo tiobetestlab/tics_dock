@@ -35,6 +35,8 @@ jobs:
         with:
           projectName: 'TICSDOCK'
           branchName: 'master'
-          branchDir: 'tics_dock.py'
-          ticsViewerUrl: 'http://localhost:42506/tiobeweb/TICS/'
+          #branchDir: 'tics_dock.py'
+          #ticsViewerUrl: 'http://localhost:42506/tiobeweb/TICS/'
+          branchDir: '/home/danai/Tics-Plugins/testing-2'
+          ticsViewerUrl: 'http://localhost:20212/tiobeweb/2021.2/'
           clientToken: 'githubToken'
