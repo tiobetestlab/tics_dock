@@ -29,4 +29,4 @@ jobs:
           path: action
           
       - name: Run My Action
-        uses: ./action
+        uses: action@main
