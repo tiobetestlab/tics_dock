@@ -28,4 +28,4 @@ jobs:
           repository: wenersoft/.github
           
       - name: TICS Action
-        uses: .github/actions/tics
+        uses: ./.github/actions/tics
