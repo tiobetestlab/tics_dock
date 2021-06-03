@@ -34,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           projectName: 'TICSDOCK'
-          branchName: ${{env.GITHUB_BASE_REF}}
+          branchName: 'master'
           branchDir: 'tics_dock.py'
           ticsViewerUrl: 'http://localhost:42506/tiobeweb/TICS/'
           ticsAuthToken: ${{secrets.TICSVIEWER}}
