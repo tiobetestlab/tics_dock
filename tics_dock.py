@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 '''
-Copytight 2001-2021 TIOBE Software b.v.
+Copyright 2001-2021 TIOBE Software b.v.
 # $Id: tics_dock.py 41376 2020-11-05 17:46:52Z wener $
 # $URL: svn+ssh://esp.tiobe.com/home/wilde/svnrepository/misc/trunk/tics_dock/tics_dock.py $
 '''
