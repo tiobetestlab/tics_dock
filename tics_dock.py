@@ -316,6 +316,7 @@ def main():
     tools, tics_url = load_config(CFG_FILE.replace('\\', '/'))
     longest = 0
 
+    # Get the longest tool name
     for tool in tools:
         longest = len(tool['name']) if len(tool['name']) > longest else longest
 
