@@ -44,5 +44,5 @@ jobs:
         project: tics_dock
         viewerUrl: 'https://testlab.tiobe.com/tiobeweb/releasetest/api/cfg?name=releasetest'
         ticsAuthToken: ${{ secrets.RELEASETESTTOKEN }}
-        resultdir: .
+        unitresultdir: .
         installTics: true
