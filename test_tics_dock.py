@@ -4,7 +4,8 @@ import yaml
 from unittest.mock import MagicMock, patch
 import os
 
-
+if not hasattr(os, 'startfile'):
+    os.startfile = lambda *args, **kwargs: None
 
 class TestDock(unittest.TestCase):
     def test_load_config_empty(self):
